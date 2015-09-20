@@ -1,0 +1,1432 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h2 a{
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: RobotoSlabBold, Arial, Tahoma, sans-serif;
+}
+
+
+body {
+/*	font-family: sans-serif;   */
+	font-size: 16px;
+    color: #333;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+/*	font-family: "RobotoRegular", sans-serif;   */
+	overflow-x: hidden;
+    background: #fff;
+}
+.hidden {
+	display: none;
+}
+
+
+/* Top_menu*/
+
+.top_menu .logo{
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 134px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    margin-left: -67px;
+    margin-top: 20px;
+}
+
+.top_menu{
+    width: 1140px;
+    height: 126px;
+    margin: 0 auto;
+    padding: 0 45px;
+    background: #fff;
+    margin-top: 47px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.top_menu_left ul{
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: inline-table;
+}
+.top_menu_left ul li{
+    float: left;
+}
+.top_menu .top_menu_left .active{
+    color: #e8131d;
+}
+.top_menu_left ul li:hover{background: #f8f7f7;}
+.top_menu_left ul li:hover > ul{display: block;}
+.top_menu_left ul li{
+    float: left;
+
+}
+.top_menu_left ul li a{
+    display: block;
+    color: #333;
+    font-size: 12px;
+    padding: 0 20px;
+    line-height: 126px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+}
+.top_menu_left ul ul{
+    display: none;
+    background: #f8f7f7;;
+    position: absolute;
+    top: 100%;
+}
+.top_menu_left ul ul li{float: none; position: relative;}
+.top_menu_left ul ul li a {
+    padding: 5px 10px 5px 25px;
+    text-transform: capitalize;
+    line-height: 18px;
+}
+.top_menu_left ul ul li {
+    list-style: inside;
+    list-style-type: circle;
+}
+.top_menu_left ul ul li a:hover {
+    text-decoration: underline;
+}
+.top_menu_left ul ul ul {
+    position: absolute;
+    left: 100%;
+    top:0;
+}
+
+.top_menu_right ul{
+    list-style: none;
+    position: relative;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: inline-table;
+}
+.top_menu_right ul li{
+    float: left;
+}
+.top_menu_right ul li:hover{text-decoration: underline;}
+.top_menu_right ul li:hover > ul{display: block;}
+.top_menu_right ul li{
+    float: left;
+
+}
+.top_menu_right ul li a{
+    display: block;
+    color: #222;
+    font-size: 12px;
+    padding: 0 20px;
+    line-height: 126px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+}
+.top_menu .top_menu_right .active{
+    color: #e8131d;
+}
+/* END Top_menu */
+
+/* slider header*/
+    .slider_1{
+        background-image: url("../img/slider_header/sl_h_3.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 800px;
+        min-width: 1140px;
+    }
+    .slider_2{
+        background-image: url("../img/slider_header/sl_h_2.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 800px;
+        min-width: 1140px;
+    }
+    .slider_3{
+        background-image: url("../img/slider_header/sl_h_1.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 800px;
+        min-width: 1140px;
+    }
+/* END slider header*/
+
+/* our masters */
+    #masters{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 620px
+    }
+    #masters h2{
+        line-height: 70px;
+        width: 100%;
+        background: rgba(232,19,29,0.8);
+    }
+    #masters h2 a{
+        color: #fff;
+    }
+    .masters{
+        overflow: hidden;
+    }
+    .masters .m_about{
+        float: left;
+        width: 285px;
+        height: 425px;
+        background: #f8f7f7;
+    }
+    .masters .grey{
+        background: #f4f4f4;
+    }
+    .masters .m_about h3, p{
+        text-align: center;
+    }
+    .masters .m_about h3{
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+        padding-top: 37px;
+        padding-bottom: 15px;
+    }
+    .masters .m_about h3 a{
+        color: #000;
+
+    }
+    .masters .m_about h3 a:hover{
+        color: #e8131d;
+    }
+    .masters .m_about p{
+        font-size: 12px;
+        color: #282828;
+        line-height: 15px;
+        font-family: "Arial", sans-serif;
+     }
+    .masters img{
+        margin-left: 67px;
+        margin-top: 70px;
+    }
+/* End our masters */
+
+/* News & News */
+    #news{
+        background: #eee;
+        margin-top: 213px;
+    }
+    #news h2{
+        padding-top: 150px;
+    }
+    #news h2 a{
+        color: #000000;
+    }
+    .news {
+        padding: 50px 52px;
+    }
+    .news .news_block{
+        width: 515px;
+        display: inline-block;
+        vertical-align: top;
+        overflow: hidden;
+    }
+    .news .news_block img{
+        float: left;
+        padding-left: 15px;
+        padding-right: 30px;
+    }
+    .news .news_block .news_about{
+        padding-right: 15px;
+    }
+    .news .news_block  .news_about h3{
+        font-size: 18px;
+        line-height: 20px;
+        padding-bottom: 22px;
+        font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+    }
+    .news .news_block  .news_about h3 a{
+        color: #e8131d;
+    }
+    .news .news_block  .news_about p{
+        text-align: left;
+        font-size: 12px;
+        line-height: 21px;
+        font-family: Arial, Tahoma, sans-serif;
+    }
+    #owl-news .owl-prev {
+        position: absolute;
+        background: url("../img/news_pre.png");
+        width: 35px;
+        height: 35px;
+        left: -532px;
+        bottom: -150px;
+    }
+    #owl-news .owl-next {
+        position: absolute;
+        background: url("../img/news_next.png");
+        width: 35px;
+        height: 35px;
+        left: 548px;
+        bottom: -150px;
+    }
+    #owl-news .owl-prev:hover {
+        position: absolute;
+        background: url("../img/news_pre_active.png");
+        width: 35px;
+        height: 35px;
+        left: -532px;
+        bottom: -150px;
+    }
+    #owl-news .owl-next:hover {
+        position: absolute;
+        background: url("../img/news_next_active.png");
+        width: 35px;
+        height: 35px;
+        left: 548px;
+        bottom: -150px;
+    }
+/* END News & News */
+
+/* Photogellary */
+    #photogallary{
+        background-image: url("../img/bg_phot_gal.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        height: 762px;
+    }
+    #photogallary h2{
+        padding-top: 40px;
+    }
+    #photogallary h2 a{
+        color: #fff;
+    }
+    #photogallary .photo_block{
+        padding: 40px 0 90px;
+        overflow: hidden;
+    }
+    #photogallary .photo_block .block_left{
+        float: left;
+        width: 570px;
+        font-size: 0;
+        overflow: hidden;
+    }
+    #photogallary .photo_block img{
+        width: 100%;
+        height: 100%;
+    }
+    .inside_vert{
+         width: 285px;
+         height: 480px;
+         float: left;
+         position: relative;
+     }
+    .square{
+        width: 285px;
+        height: 240px;
+        float: left;
+        position: relative;
+    }
+    .gorizontal{
+        width: 570px;
+        height: 240px;
+        position: relative;
+    }
+    .black{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.4);
+    }
+    .black:hover{
+        background-image: url("../img/loupe.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        -webkit-transition-duration: 1.5s;
+        -o-transition-duration: 1.5s;
+        -moz-transition-duration: 1.5s;
+        transition-duration: 1.5s;
+    }
+    #photogallary .photo_block .block_right{
+        float: right;
+        width: 570px;
+        font-size: 0;
+    }
+    #photogallary .owl-theme .owl-controls{
+        position: absolute;
+        bottom: 20px;
+        left: 46.5%;
+        text-align: center;
+    }
+/* END Photogellary */
+
+/* Mission */
+    .mission{
+        overflow: hidden;
+        padding: 64px 0;
+    }
+    .mission_about{
+        width: 855px;
+        float: left;
+        overflow: hidden;
+    }
+    .mission_about .m_a h2{
+        text-decoration: none;
+        text-align: left;
+        padding-bottom: 15px;
+    }
+    .mission_about .m_a h2 a{
+        color: #e8131d;
+    }
+    .mission_about .m_a p{
+        width: 260px;
+        font-size: 12px;
+        text-align: left;
+        font-family: RobotoSlabBold, Arial, Tahoma, sans-serif;
+    }
+    .mission_about .video_wrap{
+        float: right;
+        position: relative;
+        width: 571px;
+        height: 348px;
+    }
+    .mission_about .video_wrap span{
+        background-color: rgba(0,0,0,0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .mission_about .video_wrap span img{
+        border: none;
+        display: inline-block;
+        margin-right: 43%;
+        margin-top: 25%;
+    }
+    .mission img{
+        float: right;
+        border-left: 1px solid #fff;
+    }
+    .mission_about .citation{
+        font-size: 18px;
+        text-align: left;
+        padding: 30px 80px 0 85px;
+        font-family: "Arial", sans-serif;
+        position: relative;
+    }
+    .mission_about .citation:before{
+        content: " ";
+        background-image: url("../img/citation.png");
+        background-repeat: no-repeat;
+        width: 48px;
+        height: 40px;
+        position: absolute;
+        left: 0;
+        top: 18px
+    }
+    .mission_about .m_a{
+        width: 260px;
+        float: left;
+    }
+    .clear{
+        clear: both;
+    }
+/* End Mission */
+
+/* tournament */
+    #tournament{
+        background: #eee;
+        padding: 40px 0 80px;
+    }
+    #tournament h2{
+        padding-bottom: 55px;
+    }
+    #tournament h2 a{
+        color: #000;
+    }
+    .tournament{
+        font-size: 0;
+        line-height:0;
+    }
+    .t_block{
+        border: 0;
+        text-indent: 0;
+        display: inline-block;
+        width: 285px;
+        height: 300px;
+        position: relative;
+        -moz-transition: all 0.5s ease-out;
+        -o-transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
+     }
+    .t_block:hover{
+        border: none;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        z-index: 1;
+    }
+    .t_block .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, #000 15%, rgba(103, 85, 107, 0.40));
+        -moz-background: linear-gradient(to top, #000 15%, rgba(103, 85, 107, 0.40));
+        -webkit-background: linear-gradient(to top, #000 15%, rgba(103, 85, 107, 0.40));
+    }
+    .t_block .overlay_1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        z-index: 1;
+    }
+    .t_block .overlay_1:hover{
+        background: linear-gradient(to top, #6a0b0f, transparent);
+        -moz-background: linear-gradient(to top, #6a0b0f, transparent);
+        -webkit-background: linear-gradient(to top, #6a0b0f, transparent);
+        opacity:1;
+        -webkit-transition-duration: 1s;
+        -moz-transition-duration: 1s;
+        transition-duration: 1s;
+    }
+    .descr{
+        padding: 25px;
+        margin-top: 149px;
+        z-index: 3;
+    }
+    .t_block .overlay h4{
+        font-size: 23px;
+        color: #fff;
+        line-height: 30px;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #fff;
+        font-family: Arial, Tahoma, sans-serif;
+    }
+    .t_block .overlay p{
+        font-size: 12px;
+        color: #fff;
+        line-height: 25px;
+        padding-top: 10px;
+        text-align: left;
+        font-family: Arial, Tahoma, sans-serif;
+    }
+/* END tournament */
+
+/*Map*/
+    #map{
+        min-width: 1140px;
+        position: relative;
+    }
+    .map_contacts{
+        width: 687px;
+        margin: 0 auto;
+        font-size: 0;
+        background: #fff;
+        position: absolute;
+        z-index: 2;
+        top: 216px;
+        left: 0;
+        right: 0;
+    }
+    .arena_cont{
+        width: 400px;
+    }
+    .contacts img{
+        padding: 20px 40px;
+    }
+    .arena_cont{
+        padding: 40px 0 20px 20px;
+    }
+    .contacts img,
+    .contacts .arena_cont{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .contacts p{
+        text-align: left;
+        font-size: 14px;
+        color: #e8131d;
+        text-transform: uppercase;
+        font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+        position: relative;
+    }
+    .contacts p.tel{
+        font-size: 18px;
+        color: #080808;
+        position: relative;
+    }
+    span.arena{
+        background-image: url("../img/icons_contact/adress.png");
+        background-repeat: no-repeat;
+        width: 12px;
+        height: 16px;
+        position: absolute;
+        left: -20px;
+        top: 0px
+    }
+
+    span.t{
+        background-image: url("../img/icons_contact/telephone_black.png");
+        background-repeat: no-repeat;
+        width: 12px;
+        height: 14px;
+        position: absolute;
+        left: -20px;
+        top: 7px
+    }
+    .map{
+        background-image: url("../img/index_map.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-width: 1140px;
+        height: 685px;
+    }
+/*END Map*/
+
+/*Footer*/
+    footer .footer_menu{
+        height: 108px;
+        overflow: hidden;
+    }
+    footer .footer_menu img{
+        float: left;
+        margin-top: 25px;
+    }
+    footer nav a{
+        font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+        font-size: 12px;
+        color: #333;
+        text-transform: uppercase;
+        line-height: 108px;
+        float: right;
+        margin-left: 35px;
+    }
+    footer nav a:hover{
+        color: #e8131d;
+    }
+    footer nav a.active{
+        color: #e8131d;
+    }
+/*END Footer*/
+
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~~   vidiEdinoborstv.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+/* top_menu */
+header.kind_of_fight{
+    background-image: url("../img/bg_header.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 1982px;
+    height: 225px;
+}
+/* End top_menu */
+
+/* "Kind of fights" */
+#kind_of_fights h2{
+    text-align: left;
+    text-decoration: none;
+    line-height: 110px;
+    margin-bottom: 10px;
+}
+#kind_of_fights .wrap_block_about{
+    border-top: 1px solid #e8131d;
+    padding: 48px 0;
+    position: relative;
+}
+#kind_of_fights .wrap_block_about h3{
+    font-size: 24px;
+    color: #e8131d;
+    text-transform: uppercase;
+    background: #fff;
+    padding-right: 15px;
+    font-family: RobotoSlabBold, Arial, Tahoma, sans-serif;
+    position: absolute;
+    top: -20px;
+}
+#kind_of_fights .block_about{
+     overflow: hidden;
+ }
+#kind_of_fights .block_about img{
+    float: left;
+    padding-right: 30px;
+}
+#kind_of_fights .block_about p{
+    text-align: left;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: "Arial", sans-serif;
+    height: 210px;
+    position: relative;
+    top: -5px;
+}
+#kind_of_fights .block_about a{
+    color: #e8131d;
+    text-decoration: underline;
+}
+#kind_of_fights .block_about a:hover{
+    text-decoration: none;
+}
+/* End Kind of fights */
+
+/* footer */
+.border_menu{
+    border-top: 1px solid #ededed;
+}
+/* END footer */
+/*  ~~~~~~~~~~~~~~~~~~~~~  END vidiEdinoborstv.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~~  missionFightClub.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+#our_mission h2{
+    text-align: left;
+    text-decoration: none;
+    line-height: 110px;
+    margin-bottom: 10px;
+}
+#our_mission .citation{
+    font-size: 20px;
+    text-align: left;
+    color: #000;
+    padding: 20px 20px 0 85px;
+    font-family: "Arial", sans-serif;
+    position: relative;
+}
+#our_mission .citation:before{
+    content: " ";
+    background-image: url("../img/citation.png");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#our_mission img{
+    padding: 45px 0 0;
+}
+#our_mission h3{
+    font-size: 24px;
+    line-height: 90px;
+    color: #000000;
+    font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+}
+#our_mission p{
+    font-size: 16px;
+    color: #000;
+    font-weight: normal;
+    text-align: left;
+    font-family: Arial, Tahoma, sans-serif;
+}
+#our_mission .fight_list{
+    overflow: hidden;
+    padding: 45px 0;
+}
+#our_mission .fight_list img{
+    float: left;
+    padding: 0 60px 0 0;
+}
+#our_mission .fight_list h4{
+    font-size: 20px;
+    color: #e5141e;
+    position: relative;
+    top: -10px;
+    padding-bottom: 10px;
+    font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+}
+#our_mission .fight_list ul{
+    width: 490px;
+    float: right;
+}
+#our_mission .fight_list ul li{
+    list-style: none;
+    font-size: 16px;
+    line-height: 31px;
+    color: #000;
+    font-family: Arial, Tahoma, sans-serif;
+    position: relative;
+}
+#our_mission ul li span{
+    background-image: url("../img/check_list.png");
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 12px;
+    position: absolute;
+    left: -19px;
+    top: 9px;
+}
+#our_mission .fight_photo{
+    overflow: hidden;
+    padding: 0 0 15px 0;
+}
+#our_mission .fight_photo img{
+    padding: 0;
+    float: left;
+}
+#our_mission .fight_photo p{
+    width: 250px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #676767;
+    font-family: "Arial", sans-serif;
+    float: right;
+}
+#our_mission .fight_txt{
+    margin-bottom: 45px;
+}
+#our_mission .fight_txt h5{
+    font-size: 18px;
+    line-height: 90px;
+    color: #000000;
+    font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+}
+#our_mission .fight_txt p{
+    font-size: 16px;
+    color: #000;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 65px;
+    -moz-column-gap: 65px;
+    column-gap: 265px;
+}
+#our_mission .fight_txt a{
+    color: #e8131d;
+    text-decoration: underline;
+}
+#our_mission .fight_txt a:hover{
+    text-decoration: none;
+}
+/*  ~~~~~~~~~~~~~~~~~~~~~  END missionFightClub.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~~  ourMasters.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+#our_masters{
+    margin: 50px 0;
+}
+#our_masters h2{
+    line-height: 70px;
+    width: 100%;
+    color: #fff;
+    background: rgba(232,19,29,0.8);
+}
+#our_masters .container>h3{
+    font-size: 24px;
+    line-height: 90px;
+    color: #000000;
+    font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+}
+#our_masters .container>p{
+    text-align: left;
+    font-size: 16px;
+    color: #000000;
+    font-family: "Arial", sans-serif;
+}
+/*  ~~~~~~~~~~~~~~~~~~~~~  END ourMasters.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~~  news.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+#our_news{
+    margin: 50px 0;
+}
+#our_news h2{
+    text-align: left;
+    text-decoration: none;
+    font-family: RobotoSlabBold, Arial, Tahoma, sans-serif;
+}
+#our_news .our_news_block{
+    margin: 50px 0;
+    overflow: hidden;
+}
+#our_news .our_news_block img{
+    float: left;
+    padding-right: 30px;
+}
+#our_news .our_news_block h3{
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 18px;
+    font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+}
+#our_news .our_news_block h3 a{
+    color: #e8131d;
+}
+#our_news .our_news_block p{
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+    line-height: 29px;
+    font-family: "Arial", sans-serif;
+}
+#our_news .our_news_block p a{
+    color: #e8131d;
+    text-decoration: underline;
+}
+#our_news .our_news_block p a:hover{
+    text-decoration: none;
+}
+/*list news#*/
+#our_news .news_list {
+    overflow: hidden;
+}
+#our_news .news_list .news_block{
+    height: 122px;
+    width: 570px;
+  /*  padding: 0 0 47px 0;*/
+    padding: 0px;
+    margin-bottom: 47px;
+    float: left;
+    overflow: hidden;
+}
+#our_news .news_list .news_block img{
+    float: left;
+    padding-right: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#our_news .news_list .news_block:nth-child(2n){
+    width: 555px;
+    height: 122px;
+    padding: 0 0 0 15px;
+    margin-bottom: 47px;
+}
+#our_news .news_list .news_about{
+    height: 122px;
+}
+#our_news .news_list .news_about h3{
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 22px;
+    font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+}
+#our_news .news_list .news_about h3 a{
+    color: #e8131d;
+}
+#our_news .news_list .news_about p{
+    text-align: left;
+    font-size: 12px;
+    line-height: 21px;
+    font-family: Arial, Tahoma, sans-serif;
+}
+/*End list*/
+
+/*pagination*/
+#our_news .pagination{
+    text-align: left;
+    font-size: 18px;
+    color: #000000;
+    font-family: PFDinDisplayPro-Reg, Archive, Arial, sans-serif;
+}
+#our_news .pagination a{
+    padding: 4px 9px;
+    margin: 0 2px;
+    color: #080808;
+}
+#our_news .pagination a.active:hover,
+#our_news .pagination a.active{
+    background: #e8131d;
+    color: #fff;
+    padding: 4px 9px;
+    border-radius: 50%;
+}
+#our_news .pagination a:hover{
+    color: #e8131d;
+}
+/* END pagination*/
+/*  ~~~~~~~~~~~~~~~~~~~~~  END news.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~~  timetable.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+#timetable{
+    margin: 50px 0;
+}
+#timetable h2{
+    text-align: left;
+    padding-bottom: 35px;
+    font-family: RobotoSlabBold, Arial, Tahoma, sans-serif;
+}
+table {
+    font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+    font-size: 14px;
+    background: white;
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    width: 150px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 12px;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+th:first-child{
+    width: 87px;
+}
+td {
+    color: #669;
+    padding: 9px 8px;
+    transition: .3s linear;
+}
+th, td {
+    border: 1px solid #bebebe;
+}
+tr:first-child{
+    background: #e8131d;
+}
+tr td{
+    height: 50px;
+    font-size: 13px;
+    padding-top: 14px;
+    vertical-align: top;
+    font-weight: normal;
+    font-family: "Arial", sans-serif;
+}
+tr td h5{
+    font-size: 13px;
+    color: #080808;
+    font-weight: bolder;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+tr td span{
+    font-size: 11px;
+    color: #9d9d9d;
+    font-weight: normal;
+    font-style: italic;
+    padding-left: 10px
+}
+tr td p{
+    font-size: 13px;
+    color: #1b1b1b;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 10px
+}
+/* таблица времени */
+tr td:first-child{
+    background: #717171;
+    color: #fff;
+    font-size: 13px;
+    padding-top: 14px;
+    vertical-align: top;
+    font-weight: normal;
+    font-family: "Arial", sans-serif;
+}
+/*  END таблица времени */
+/*Скачать расписание*/
+.load{
+    position: relative;
+    height: 30px;
+    margin: 50px 0;
+}
+.load a{
+    color: #e8131d;
+    text-decoration: underline;
+    font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+    background-image: url("../img/load.png");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 29px;
+    position: absolute;
+    padding-left: 35px;
+    top: 9px;
+}
+.load a:hover{
+    text-decoration: none;
+}
+/*  ~~~~~~~~~~~~~~~~~~~~~  END timetable.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~~  tournaments.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+    #tournaments{
+        margin: 50px 0;
+    }
+    #tournaments h2{
+        text-align: left;
+        padding-bottom: 20px;
+        text-decoration: none;
+        font-family: RobotoSlabBold, Arial, Tahoma, sans-serif;
+    }
+    /*pagination*/
+    #tournaments .pagination{
+        margin-top: 20px;
+        text-align: left;
+        font-size: 18px;
+        color: #000000;
+        font-family: PFDinDisplayPro-Reg, Archive, Arial, sans-serif;
+    }
+    #tournaments .pagination a{
+        padding: 4px 9px;
+        margin: 0 2px;
+        color: #080808;
+    }
+    #tournaments .pagination a.active:hover,
+    #tournaments .pagination a.active{
+        background: #e8131d;
+        color: #fff;
+        padding: 4px 9px;
+        border-radius: 50%;
+    }
+    #tournaments .pagination a:hover{
+        color: #e8131d;
+    }
+    /* END pagination*/
+    #tournaments .t_block{
+        margin: 25px 0;
+    }
+/*  ~~~~~~~~~~~~~~~~~~~~~   END tournaments.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~~  trener.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+    #trener{
+        margin: 50px 0;
+    }
+    #trener h2{
+        text-align: left;
+        padding-bottom: 20px;
+        text-decoration: none;
+        font-family: RobotoSlabBold, Arial, Tahoma, sans-serif;
+    }
+    #trener .citation{
+        font-size: 18px;
+        text-align: left;
+        padding: 30px 80px 30px 85px;
+        font-family: "Arial", sans-serif;
+        position: relative;
+    }
+    #trener .citation:before{
+        content: " ";
+        background-image: url("../img/citation.png");
+        background-repeat: no-repeat;
+        width: 48px;
+        height: 40px;
+        position: absolute;
+        left: 0;
+        top: 18px
+    }
+    #trener .fight_list{
+        overflow: hidden;
+        padding: 20px 0;
+    }
+    #trener .fight_list img{
+        float: left;
+        padding: 0 60px 0 0;
+    }
+    #trener .fight_list h4{
+        font-size: 25px;
+        color: #1b1b1b;
+        position: relative;
+        top: -10px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+    }
+    #trener .fight_list ul{
+        margin-left: 20px;
+        width: 490px;
+        display: inline-block;
+    }
+    #trener .fight_list ul li{
+        list-style: none;
+        font-size: 16px;
+        line-height: 31px;
+        color: #000;
+        font-family: Arial, Tahoma, sans-serif;
+        position: relative;
+    }
+    #trener ul li span{
+        background-image: url("../img/check_list.png");
+        background-repeat: no-repeat;
+        width: 10px;
+        height: 12px;
+        position: absolute;
+        left: -19px;
+        top: 9px;
+    }
+    #trener .photo_block{
+        margin: 20px 0 20px;
+        overflow: hidden;
+    }
+    #trener .photo_block .block_left{
+        float: left;
+        width: 570px;
+        font-size: 0;
+        overflow: hidden;
+    }
+    #trener .photo_block img{
+        width: 100%;
+        height: 100%;
+    }
+    #trener .photo_block .block_right{
+        float: right;
+        width: 570px;
+        font-size: 0;
+    }
+    #trener h3{
+        font-size: 24px;
+        line-height: 90px;
+        color: #000000;
+        font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+    }
+    #trener p{
+        font-size: 16px;
+        color: #000;
+        font-weight: normal;
+        text-align: left;
+        font-family: Arial, Tahoma, sans-serif;
+    }
+/*  ~~~~~~~~~~~~~~~~~~~~~  END trener.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~~   contacts.html  ~~~~~~~~~~~~~~~~~~~~~~ */
+#contacts{
+    margin: 50px 0;
+}
+#contacts h2{
+    text-align: left;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-family: RobotoSlabBold, Arial, Tahoma, sans-serif;
+}
+#contacts .contacts_about{
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+#contacts h3{
+    color: #e8131d;
+    font-size: 22px;
+    font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+}
+#contacts span{
+    color: #000;
+    font-size: 20px;
+    font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+}
+#contacts p{
+    color: #282828;
+    font-size: 16px;
+    text-align: left;
+    font-family: Arial, Tahoma, sans-serif;
+}
+#contacts span,
+#contacts p{
+    padding-left: 25px;
+}
+#contacts .club,
+#contacts .coaching_staff{
+    display: inline-block;
+    width: 568px;
+    vertical-align: top;
+}
+.em,
+.sk{
+    display: inline-block;
+    vertical-align: top;
+}
+.em p{
+    text-decoration: underline;
+}
+#contacts .staff_txt{
+    color: #000;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 135px;
+    -moz-column-gap: 135px;
+    column-gap: 135px;
+}
+.adress{
+    background-image: url("../img/icons_contact/adress.png");
+    background-repeat: no-repeat;
+    background-position: left top 3px;
+    width: 12px;
+    height: 20px;
+}
+.telephone{
+    background-image: url("../img/icons_contact/telephone.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 12px;
+    height: 12px;
+}
+p.telephone{
+    width: 200px;
+    height: 26px;
+}
+.e-mail{
+    background-image: url("../img/icons_contact/e-mail.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 16px;
+    height: 10px;
+}
+.skype{
+    background-image: url("../img/icons_contact/skype.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 14px;
+    height: 15px;
+}
+.staff{
+    background-image: url("../img/icons_contact/staff.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 19px;
+    height: 19px;
+}
+#map_contacts{
+    background-image: url("../img/bg_contacts.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 685px;
+    min-width: 1140px;
+}
+/*forma*/
+
+.input{
+    width: 550px;
+    height: 105px;
+    float: left;
+}
+form{
+    overflow: hidden;
+}
+input[type=text]{
+    width: 520px;
+    height: 38px;
+    margin-bottom: 22px;
+}
+input[type=email]{
+    width: 520px;
+    height: 38px;
+}
+textarea{
+    float: right;
+    width: 520px;
+    height: 105px;
+    resize: none;
+}
+input,
+textarea{
+    outline: none;
+    font-family: PFDinDisplayPro-Reg, Archive, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 38px;
+    color: inherit;
+    padding: 0 15px;
+    border: 1px solid #bebebe;
+}
+button{
+    border: none;
+    background: #e8131d;
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 10px 90px;
+    margin-top: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+}
+
+#map_contacts .map_contacts{
+    width: 687px;
+    font-size: 0;
+    background: #fff;
+    position: relative;
+
+    top: 113px;
+    left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.arena_cont{
+    width: 400px;
+}
+.contacts img{
+    padding: 20px 40px;
+}
+.arena_cont{
+    padding: 40px 0 20px 20px;
+}
+.contacts img,
+.contacts .arena_cont{
+    display: inline-block;
+    vertical-align: top;
+}
+.contacts p{
+    text-align: left;
+    font-size: 14px;
+    color: #e8131d;
+    text-transform: uppercase;
+    font-family: PFDinDisplayPro-Bold, Arial, Tahoma, sans-serif;
+    position: relative;
+}
+.contacts p.tel{
+    font-size: 18px;
+    color: #080808;
+    position: relative;
+}
+span.arena{
+    background-image: url("../img/icons_contact/adress.png");
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 16px;
+    position: absolute;
+    left: -20px;
+    top: 0px
+}
+
+span.t{
+    background-image: url("../img/icons_contact/telephone_black.png");
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 14px;
+    position: absolute;
+    left: -20px;
+    top: 7px
+}
+/*end forma*/
+/*  ~~~~~~~~~~~~~~~~~~~~~  END contacts.html  ~~~~~~~~~~~~~~~~~~~~~~ */
